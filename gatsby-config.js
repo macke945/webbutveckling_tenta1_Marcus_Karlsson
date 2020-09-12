@@ -1,6 +1,7 @@
 module.exports = {
   plugins: [
     {
+      //defines source filesystem plugin for pages
       resolve: `gatsby-source-filesystem`,
       options: {
           name: `pages`,
@@ -8,6 +9,7 @@ module.exports = {
       },
     },
     {
+      //defines source filesystem plugin for posts
       resolve: `gatsby-source-filesystem`,
       options: {
           name: `posts`,
@@ -15,14 +17,17 @@ module.exports = {
       },
     },
     {
+      //defines source filesystem plugin for images
       resolve: `gatsby-source-filesystem`,
       options: {
           name: `images`,
           path: `${_dirname}/src/images`
       },
     },
+    //defines transformer sharp plugin
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    //defines mdx plugin
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -35,6 +40,17 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    {
+      //defines google fonts plugin and defines what fonts to use
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `roboto mono`,
+          `muli\:400,400i,700,700i`
+        ],
+        display: "swap",
       },
     },
   ],

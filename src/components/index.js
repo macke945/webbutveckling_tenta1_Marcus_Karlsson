@@ -6,5 +6,6 @@ export * from "./Content"
 export * from "./ContentCard"
 export * from "./Button"
 export * from "./Pagination"
+export * from "./Post"
 
 //exports for all components so gatsby knows where to grab all components

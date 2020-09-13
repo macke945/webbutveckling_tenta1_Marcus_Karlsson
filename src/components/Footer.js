@@ -23,7 +23,6 @@ query{
         publicURL
     }
 }
-
 `)
     return <FooterWrapper>
         <FooterSocialWrapper>

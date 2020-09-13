@@ -27,7 +27,7 @@ export const PaginationWrapper = styled.div`
 `
 //a tag checks to see if its supposed to be clickable or not, if its not supposed to be it changes values
 
-export const Paginationelement = styled(props => <Link {...props} />)`
+export const PaginationElement = styled(props => <Link {...props} />)`
     font-size: 0.875rem;
     line-height: 1.125rem;
     font-weight: 400;

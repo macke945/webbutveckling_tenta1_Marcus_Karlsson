@@ -47,3 +47,5 @@ query{
         </FooterSocialWrapper>
     </FooterWrapper>
 }
+
+//footer images and p tag for social media icons and fake trademark text

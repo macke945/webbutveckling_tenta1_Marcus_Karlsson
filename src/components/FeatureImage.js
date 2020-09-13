@@ -27,3 +27,5 @@ export const FeatureImage = ({fixed}) => {
         </FeatureImageWrapper>
     )
 } 
+
+//settings for image on front page

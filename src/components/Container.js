@@ -11,3 +11,5 @@ export const Container = ({children}) => {
         </ContainerWrapper>
     )
 }
+
+//container for nav, footer and everything inbetween

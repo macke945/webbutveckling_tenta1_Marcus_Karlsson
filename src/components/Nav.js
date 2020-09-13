@@ -20,3 +20,5 @@ export const Nav = () => {
         </NavWrapper>
     )
 }
+
+//nav settings and logo

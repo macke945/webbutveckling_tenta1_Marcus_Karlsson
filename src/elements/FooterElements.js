@@ -39,3 +39,4 @@ export const FooterSocialIcons = styled.div `
         filter: brightness(50%);
     }
 `
+//settings for footer elements

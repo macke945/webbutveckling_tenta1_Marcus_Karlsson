@@ -16,3 +16,4 @@ export const ContentWrapper = styled.main`
     padding: ${props => `${props.theme.spacings.medium} ${props.theme.spacings.large}`};
 }
 `
+//sets where the content is supposed to be on the site and the padding etc

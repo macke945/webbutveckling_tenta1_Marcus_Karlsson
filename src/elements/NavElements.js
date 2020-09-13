@@ -15,3 +15,4 @@ export const NavWrapper = styled.nav`
         grid-column: 2 / span 6;
     }
 `
+//css for nav elements

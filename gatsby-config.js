@@ -1,4 +1,11 @@
 module.exports = {
+  siteMetadata: {
+    title: "My MDX Blog",
+    description: "a blog built with Gatsby and MDX",
+    image: "/nature.jpg",
+    author: "Marcus Karlsson",
+  },
+
   plugins: [
     {
       //defines source filesystem plugin for pages

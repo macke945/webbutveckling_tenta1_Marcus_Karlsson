@@ -9,5 +9,6 @@ export * from "./Pagination"
 export * from "./Post"
 export * from "./Table"
 export * from "./Code"
+export * from "./Seo"
 
 //exports for all components so gatsby knows where to grab all components

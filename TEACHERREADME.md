@@ -1,3 +1,3 @@
-I followed a youtube guide because I couldn't attend class.
+github repo: https://github.com/macke945/gatsby-blog-school
 
 made by: Marcus Karlsson

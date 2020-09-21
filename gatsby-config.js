@@ -1,10 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: "My MDX Blog",
-    description: "a blog built with Gatsby and MDX",
-    image: "/nature.jpg",
+
+    title: "My SUPER Blog",
+    
+    description: "An awesome blog built with Gatsby and MDX",
+    
+    url: "https://your-url.netlify.app/",
+    
+    image:
+    
+    "https://frontend-magic.netlify.app/static/142900cccf67f74f52182a3914449904/37155/hero-img.png",
+    
+    twitterUsername: "@notanactualtwittertag",
+    
     author: "Marcus Karlsson",
-  },
+    
+    },
 
   plugins: [
     {

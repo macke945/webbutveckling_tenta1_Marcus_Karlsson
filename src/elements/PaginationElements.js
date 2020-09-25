@@ -26,7 +26,7 @@ export const PaginationWrapper = styled.div`
 }
 `
 //a tag checks to see if its supposed to be clickable or not, if its not supposed to be it changes values
-
+//for this site its for the next and previous page and it changes depending on which page you're on
 export const PaginationElement = styled(props => <Link {...props} />)`
     font-size: 0.875rem;
     line-height: 1.125rem;

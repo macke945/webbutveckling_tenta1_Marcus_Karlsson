@@ -43,7 +43,7 @@ query{
                     <img src={data.twitter.publicURL} alt="Twitter logo" />
                 </a>
             </FooterSocialIcons>
-            <P size="xSmall" color="dark3">2020 Company. All Rights Reserved</P>
+            <P size="xSmall" color="dark3">2020 Fake Company. All Rights Reserved</P>
         </FooterSocialWrapper>
     </FooterWrapper>
 }

@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
 
-    title: "My SUPER Blog",
+    title: "My Exam Blog",
     
-    description: "An awesome blog built with Gatsby and MDX",
+    description: "A blog for the purpose of an exam",
     
     url: "https://your-url.netlify.app/",
     
     image:
     
-    "https://frontend-magic.netlify.app/static/142900cccf67f74f52182a3914449904/37155/hero-img.png",
+    "https://emoji.gg/assets/emoji/5960_NotLikeThis.png",
     
     twitterUsername: "@notanactualtwittertag",
     

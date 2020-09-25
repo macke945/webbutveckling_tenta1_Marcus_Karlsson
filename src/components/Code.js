@@ -29,3 +29,5 @@ export const Code = ({ codeString, language, ...props }) => {
     </div>
     
     )}</Highlight>)}
+
+    //different style highlights for code languages. On this blog I use html, css and js as examples on post "code-styling-page"

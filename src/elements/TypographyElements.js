@@ -89,7 +89,7 @@ export const H1 = styled.h1`
         }
     }};
     font-weight: 400;
-    text-align: ${props => props.textAlign ? props.textAlign : "left"}
+    text-align: ${props => props.textAlign ? props.textAlign : "left"};
     margin: ${props => props.margin ? props.margin : 0};
 `
 //h2 fonts and colors
@@ -121,4 +121,37 @@ export const H2 = styled.h2`
     font-weight: 400;
     text-align: ${props => props.textAlign ? props.textAlign : "left"}
     margin: ${props => props.margin ? props.margin : 0};
+    
+`
+
+//h3 fonts and colors
+export const H3 = styled.h3`
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+
+    color: ${props => {
+        switch(props.color){
+            case "dark1":
+                return props.theme.colors.dark1
+            
+            case "dark2":
+                return props.theme.colors.dark2
+    
+            case "dark3":
+                return props.theme.colors.dark3
+    
+            case "light1":
+                return props.theme.colors.light1
+    
+            case "light2":
+                return props.theme.colors.light2
+    
+            default:
+                return props.theme.colors.dark1
+        }
+    }};
+    font-weight: 400;
+    text-align: ${props => props.textAlign ? props.textAlign : "left"}
+    margin: ${props => props.margin ? props.margin : 0};
+    
 `

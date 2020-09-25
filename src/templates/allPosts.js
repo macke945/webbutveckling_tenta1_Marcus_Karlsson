@@ -17,7 +17,7 @@ const allPosts = ({pageContext, data}) => {
             <FeatureImage />
             <Content>
                 <H1 textAlign="center" margin="0 0 1rem 0">
-                    Fake text here this is fake text wow fake so fake amazing
+                    Fake exam title, this is a fake exam title for a fake website on netlify.
                 </H1>
                 <P color="dark2" textAlign="center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

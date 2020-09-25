@@ -8,3 +8,5 @@ export const Table = ({children}) => {
         </TableWrapper>
     )
 }
+
+//sets up how a table should look on page "table-styling-page"

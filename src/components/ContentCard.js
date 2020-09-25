@@ -18,3 +18,5 @@ export const ContentCard = ({date, title, excerpt, slug}) => {
         </CardWrapper>
     )
 }
+
+//sets up how the cards for getting into pages will look like

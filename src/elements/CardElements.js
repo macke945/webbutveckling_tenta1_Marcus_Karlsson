@@ -7,3 +7,4 @@ export const CardWrapper = styled.div`
     flex-direction: column;
     align-items: center;
 `
+//sets up how the cards for getting into pages will look like
